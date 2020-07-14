@@ -1,0 +1,19 @@
+
+*.DS_Store
+.DS_Store
+# For Terraform
+# Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.secrets
+.vscode/settings.json
